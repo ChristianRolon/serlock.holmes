@@ -1,0 +1,87 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.fondo {
+   width: 100%;
+   height: 100vh;
+   background-image: url("sherlock-holmes-.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.highlight {
+    background-color: rgba(255, 0, 0, 0.39); /* Color de la palabra resaltada que el jugador debe escribir*/
+ }
+
+ .error {
+    background-color: lightcoral;
+    border-color: rgb(255, 0, 0); /* Color del cuadro de texto cuando el jugador escribe una palabra incorrecta*/
+ }
+
+
+button {
+   font-size: 15px; /*cambia el tamaño de letra del botón*/
+	font-weight: bold; /*cambio de ancho y negrita*/
+	padding: 12px 45px; /* centra el texto del input, permitiendole dar espacios de costado y arriba */
+	border-radius: 30px; /*redondear el botón*/
+	background-color: #0f0303; /*Color del fondo del botón*/
+	border: 1px solid rgb(223, 4, 4); /*Color del borde del botón*/
+	color: white; /*Color de la letra del botón*/
+	text-transform: uppercase; /*transforma en mayúscula*/
+	letter-spacing: 1px;/*espacio en letras*/
+	transition: transform 20ms ease-in; /* permite el tiempo de transición del efecto del botón*/
+   
+}
+
+button:active {
+	transform: scale(0.95);/*realiza el efecto del botón al presionarlo*/
+}
+
+.contenido {
+   color: rgb(255, 255, 255);
+   font-family: 'Oswald', sans-serif;
+   background-color: rgba(5, 0, 0, 0.527);
+   width: 900px; 
+   height: 350px;
+   position: absolute;
+   inset: 0;
+   text-align: center;
+   margin: auto;
+   border-radius: 100px;
+   line-height: 50px;
+   
+   
+}
+
+
+input{
+   display: block;
+   margin: auto; /*Modifica la posición del campo. Al estar en "auto", el campo queda centrado*/
+   margin-bottom: 10px;
+   padding: 5px 50px; /*Modifica el tamaño del campo */
+   background-color: white; /*Modifica el color del campo */
+   border-style: double; /*Modifica el borde del campo */
+   border-color: black;
+   
+}
+#Titulo {
+   
+   color: rgb(255, 255, 255);
+   font-family: 'Shalimar', cursive;
+   width: 800px; 
+   height: 500px;
+   position: absolute;
+   inset: 0;
+   text-align: center;
+   margin: auto;
+   font-size: 40px;
+   
+
+
+}
